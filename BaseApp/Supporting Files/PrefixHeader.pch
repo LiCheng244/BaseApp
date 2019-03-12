@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  BaseApp
+//
+//  Created by LiCheng on 2019/3/5.
+//  Copyright © 2019 LiCheng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "LCCategory.h"
+
+#pragma mark - ------ Base ------
+
+#import "LCTabBarController.h"
+#import "LCNavigationController.h"
+#import "AppDelegate+LCStart.h"
+
+
+#pragma mark - ------ Manager ------
+
+#pragma mark - ------ Macros ------
+
+#import "UtilsMacros.h"
+#import "DeviceMarcos.h"
+#import "EnumMacros.h"
+#import "ColorMacros.h"
+#import "ThirdMacros.h"
+#import "StringMacros.h"
+#import "DelegateMacros.h"
+
+
+
+#pragma mark - ------ ThridParty ------
+
+#import <MJRefresh/MJRefresh.h>
+#import <AFNetworking/AFNetworking.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+
+
+#endif
